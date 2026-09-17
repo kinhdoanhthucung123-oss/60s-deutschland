@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutz · 60S Deutschland</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #141c2e;
+      --line: #243049;
+      --text: #eef3ff;
+      --muted: #9aa8c2;
+      --accent: #e8b84a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(1200px 500px at 10% -10%, #1a2744 0%, var(--bg) 45%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 72px; }
+    h1 { font-family: Georgia, serif; font-size: 34px; margin: 0 0 12px; }
+    h2 { font-family: Georgia, serif; font-size: 20px; margin: 28px 0 8px; }
+    p, li { color: #d7deee; }
+    a { color: var(--accent); }
+    .muted { color: var(--muted); }
+    .nav { margin-bottom: 36px; }
+    .nav a { margin-right: 18px; text-decoration: none; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 8px 24px 24px;
+    }
+    footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="nav">
+      <a href="./">Start</a>
+      <a href="./privacy.html">Datenschutz</a>
+    </nav>
+    <h1>Datenschutzerklärung</h1>
+    <p class="muted">Privacy Policy · 60S Deutschland · Stand: 17. September 2026</p>
+
+    <div class="card">
+      <h2>1. Verantwortlicher</h2>
+      <p>Diese App wird vom Betreiber des Kanals <strong>60S Deutschland</strong> ausschließlich für die eigene Videoproduktion verwendet. Kontakt: die Support-E-Mail im Google-Cloud-Projekt <strong>youtube for DE tin tuc</strong>.</p>
+
+      <h2>2. YouTube API Services</h2>
+      <p>60S Deutschland uses <strong>YouTube API Services</strong> to upload videos to the operator’s own channel and to read basic channel information (name, channel ID, statistics).</p>
+      <p>By using this app, you also agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google’s privacy practices are described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+      <h2>3. Welche Daten verarbeitet werden</h2>
+      <ul>
+        <li>OAuth-Zugangsdaten (access token und refresh token) für den YouTube-Kanal des Betreibers</li>
+        <li>Kanalname, Channel-ID und öffentliche Kanalstatistiken</li>
+        <li>Videodateien, Titel, Beschreibung und Tags, die der Betreiber selbst erzeugt</li>
+      </ul>
+      <p>Die App fordert keine Gmail-, Drive- oder Kontaktdaten an. Sie sammelt keine Daten von Drittnutzern.</p>
+
+      <h2>4. Zweck und Speicherung</h2>
+      <p>Daten werden nur verwendet, um Kurzvideos auf den eigenen Kanal hochzuladen und den Upload-Status zu prüfen. Tokens werden lokal auf dem Rechner des Betreibers gespeichert (Datei <code>secrets/youtube_token.json</code>) und nicht an Dritte verkauft oder weitergegeben — außer an Google, soweit dies für YouTube API Services erforderlich ist.</p>
+
+      <h2>5. Weitergabe</h2>
+      <p>Keine Weitergabe an Werbenetzwerke, Analysefirmen oder andere App-Nutzer. Technische Übermittlung erfolgt nur an Google / YouTube zum Zweck des Uploads.</p>
+
+      <h2>6. Speicherdauer und Widerruf</h2>
+      <p>Tokens bleiben gespeichert, bis der Betreiber sie löscht oder den Zugriff widerruft. Zugriff entziehen:</p>
+      <p><a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a></p>
+      <p>Nach dem Widerruf werden gespeicherte Token-Dateien auf dem lokalen Rechner gelöscht.</p>
+
+      <h2>7. English summary</h2>
+      <p>60S Deutschland is a private desktop publisher for one news channel. It uses YouTube API Services to upload operator-created videos and read channel info. OAuth tokens stay on the operator’s computer. We do not sell data. Revoke access anytime at Google Account permissions. See also the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+    </div>
+
+    <footer>© 2026 60S Deutschland</footer>
+  </main>
+</body>
+</html>
